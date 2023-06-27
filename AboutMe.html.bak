@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>AboutMe</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="tswnavbar.css">
+  </head>
+  <body id="logo">
+    <div id="tswcontainer">
+      <div id="tswheader">&nbsp;&nbsp;
+        <!-- start of header section: insert your logo, etc, here --> <img src="images/evie-s-MicqqGyDQ6w-unsplash.jpg"
+
+          alt="All about me's logo" style="width: 155px; height: 138px;" id="logo">
+        <span style="text-align:center">
+          <h1><br>
+          </h1>
+          <h1>All About Ishita's Summer! </h1>
+          <p><br>
+          </p>
+        </span>
+        <!-- end of header section: insert your logo, etc, above this line -->
+        <p></p>
+      </div>
+      <div id="tswcontent">
+        <div id="tswcontproper">
+          <!-- start of content column: insert your content here -->
+          <h4>About Me</h4>
+          <p> Hi! My name is Ishita Agrawal. </p>
+          <p> <img src="images/paint%20palette.jpg" alt="paint palette" title="paint palette image"
+
+              style="width: 195px; height: 120px; float: left; margin-top: 5px; margin-left: 0px;">I
+            love art and I enjoy playing the flute. I am very artistic and I
+            love creating new things. I like sketching, acrylic painting, and
+            clay! I am from Westborough Masachusetts. </p>
+          <p> I go to Gibbons Middle school and my favorite subjects are math
+            and science.</p>
+          <p> I am excited to have art class in 8th grade. </p>
+          <p> </p>
+          <p>It was nice to meet you! </p>
+          <p>&nbsp;</p>
+          <!-- end of content column: put your content above this line --> </div>
+      </div>
+      <div id="tswsidecol">
+        <div id="tswsideproper">
+          <!-- start of side column: insert your navigation menu, etc, here -->
+          <div id="tswcssbuttons">
+            <ul>
+              <li><a href="https://users.wpi.edu/%7Eiagrawal/">Home</a></li>
+              <li><a href="AboutMe.html">About Me</a></li>
+              <li><a href="MySummer.html">My summer</a></li>
+            </ul>
+          </div>
+          <!-- end of side column: put your navigation menu, etc, above this line -->
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+      <div id="tswfooter">
+        <!-- start of footer section: insert your copyright notice, etc, here -->
+        <p><br>
+        </p>
+        <!-- end of footer section: insert your copyright notice, etc, above this line -->
+      </div>
+    </div>
+  </body>
+</html>
