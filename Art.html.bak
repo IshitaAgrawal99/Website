@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" media="all" href="styles.css">
     <link type="text/css" rel="stylesheet" href="tswnavbar.css">
   </head>
-  <body id="logo"> 
+  <body id="logo">
     <div id="tswcontainer">
       <div id="tswheader">&nbsp;&nbsp;
         <!-- start of header section: insert your logo, etc, here --> <img src="images/evie-s-MicqqGyDQ6w-unsplash.jpg"
@@ -29,20 +29,24 @@
         <div id="tswcontproper">
           <!-- start of content column: insert your content here -->
           <h4>Art</h4>
-          <p> Ishita has talked about art on here before, so I thought I'd talk about some types of art I like to do! </p>
+          <p> Ishita has talked about art on here before, so I thought I'd talk
+            about some types of art I like to do! </p>
           <p> <img src="images/paint%20palette.jpg" alt="paint palette" title="paint palette image"
 
-              style="width: 195px; height: 120px; float: left; margin-top: 5px; margin-left: 0px;">The kind of art I 
-          do the most is drawing. I started out with sketching simple things like a sphere and a cube.
-          Seems weird, right? But drawing these easy forms shows you how to shade drawings 
-          and make them look 3D, so it's very important. Now, my favorite thing to draw is very detailed
-          dragons and monsters. Not so simple now!</p>
-          <p> I also love to use watercolors. One thing I do every year is make Christmas cards
-          for my friends and family using my watercolors.</p>
-          <p> Ishita is excited to have art class in 8th grade. I've been homeschooled for a while and one of 
-          the classes I love to add to my schedule is art class. I've taken many art classes at co-ops,
-          including the class that taught me the basics of watercolors, and a class using acrylic paints.
-          I also had my drawings in a teen art exhibit at Worcester Art Museum!</p>
+              style="width: 195px; height: 120px; float: left; margin-top: 5px; margin-left: 0px;">The
+            kind of art I do the most is drawing. I started out with sketching
+            simple things like a sphere and a cube. Seems weird, right? But
+            drawing these easy forms shows you how to shade drawings and make
+            them look 3D, so it's very important. Now, my favorite thing to draw
+            is very detailed dragons and monsters. Not so simple now!</p>
+          <p> I also love to use watercolors. One thing I do every year is make
+            Christmas cards for my friends and family using my watercolors.</p>
+          <p> Ishita is excited to have art class in 8th grade. I've been
+            homeschooled for a while and one of the classes I love to add to my
+            schedule is art class. I've taken many art classes at co-ops,
+            including the class that taught me the basics of watercolors, and a
+            class using acrylic paints. I also had my drawings in a teen art
+            exhibit at Worcester Art Museum!</p>
           <p> </p>
           <p>It was nice to meet you! </p>
           <p>&nbsp;</p>
@@ -56,6 +60,9 @@
               <li><a href="https://users.wpi.edu/%7Eiagrawal/">Home</a></li>
               <li><a href="AboutMe.html">About Me</a></li>
               <li><a href="MySummer.html">My summer</a></li>
+              <li><span style="color: white;"><a href="Art.html">Art Guest
+                    Article</a><br>
+                </span></li>
             </ul>
           </div>
           <!-- end of side column: put your navigation menu, etc, above this line -->
