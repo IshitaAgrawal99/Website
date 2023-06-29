@@ -117,8 +117,9 @@ list-style-type:number;
         <li>Listening to music</li>
       </ol>
     </h4>
-    <button type="button" onclick="generateEntry()" style="background-color:coral;">Bored?
+    <button type="button" onclick="generateEntry()" style="background-color:PaleVioletRed;">Bored?
       Generate a random art prompt!</button>
     <p id="generatedText"></p>
+    
   </body>
 </html>
