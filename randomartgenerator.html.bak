@@ -5,7 +5,7 @@
     <title>randomartgenerator</title>
     <link type="text/css" rel="stylesheet" href="tswnavbar.css">
     <script type="text/javascript">
-      const materials = ["watercolor", "acrylic paint", "digital art", "sketching", "color pencils"]
+      const materials = ["watercolor", "acrylic paint", "digital art", "sketching", "oil pastels", "color pencils"]
       const characters = ["Minions", "Spongebob", "Elsa and Anna", "Shrek", "Charlie Brown and Snoopy",
                           "Tom and Jerry", "Scooby Doo", "Moana", "Mickey Mouse", "Ariel (The Little Mermaid)"]
       const actions = ["baking", "drawing", "at the beach", "flying", "cleaning", "horseback riding", 
@@ -14,7 +14,7 @@
       let c = 0;
       let a = 0;
       function generateEntry(){
-        m = Math.floor(Math.random() * 5);
+        m = Math.floor(Math.random() * 6);
         c = Math.floor(Math.random() * 10);
         a = Math.floor(Math.random() * 10);
         document.getElementById("generatedText").innerHTML = "You should use "
