@@ -16,6 +16,8 @@
         m = Math.floor(Math.random() * 5);
         c = Math.floor(Math.random() * 10);
         a = Math.floor(Math.random() * 10);
+        document.getElementById("generatedText").innerHTML = "You should use "
+        + materials[m] + " to make " + characters[c] + " " + actions[a] + "!";
       }
     </script>
     <style>
@@ -115,5 +117,8 @@ list-style-type:number;
         <li>Listening to music</li>
       </ol>
     </h4>
+    <button type="button" onclick="generateEntry()" style="background-color:coral;">Bored?
+      Generate a random art prompt!</button>
+    <p id="generatedText"></p>
   </body>
 </html>
