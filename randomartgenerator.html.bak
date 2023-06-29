@@ -3,6 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=windows-1252">
     <title>randomartgenerator</title>
+    <link type="text/css" rel="stylesheet" href="tswnavbar.css">
     <script type="text/javascript">
       const materials = ["watercolor", "acrylic paint", "digital art", "sketching", "color pencils"]
       const characters = ["Minions", "Spongebob", "Elsa and Anna", "Shrek", "Charlie Brown and Snoopy",
@@ -120,5 +121,21 @@ list-style-type:number;
     <button type="button" onclick="generateEntry()" style="background-color:PaleVioletRed;">Bored?
       Generate a random art prompt!</button>
     <p id="generatedText"></p>
+    <div id="tswsidecol">
+        <div id="tswsideproper">
+          <!-- start of side column: insert your navigation menu, etc, here -->
+          <div id="tswcssbuttons">
+            <ul>
+              <li><a href="https://users.wpi.edu/%7Eiagrawal/">Home</a></li>
+              <li><a href="AboutMe.html">About Me</a></li>
+              <li><a href="MySummer.html">My Summer</a></li>
+              <li><a href="Art.html">Art Guest Article</a></li>
+              <li><a href="randomartgenerator.html"><span style="color: white;">Random
+                    Art Generator</span></a></li>
+            </ul>
+          </div>
+          <!-- end of side column: put your navigation menu, etc, above this line -->
+        </div>
+      </div>
   </body>
 </html>
