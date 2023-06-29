@@ -35,7 +35,7 @@
               style="width: 195px; height: 120px; float: left; margin-top: 5px; margin-left: 0px;">I
             love art and I enjoy playing the flute. I am very artistic and I
             love creating new things. I like sketching, acrylic painting, and
-            clay! I am from Westborough Masachusetts. </p>
+            clay! I am from Westborough Massachusetts. </p>
           <p> I go to Gibbons Middle school and my favorite subjects are math
             and science.</p>
           <p> I am excited to have art class in 8th grade. </p>
@@ -52,6 +52,8 @@
               <li><a href="https://users.wpi.edu/%7Eiagrawal/">Home</a></li>
               <li><a href="AboutMe.html">About Me</a></li>
               <li><a href="MySummer.html">My summer</a></li>
+              <li><a href="Art.html">Art Guest
+                Article</a></li>
             </ul>
           </div>
           <!-- end of side column: put your navigation menu, etc, above this line -->

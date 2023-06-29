@@ -11,12 +11,10 @@
   </head>
   <body id="logo">
     <div id="tswcontainer">
-      <div id="tswheader">
-        <!-- start of header section: insert your logo, etc, here --> <img src="images/evie-s-MicqqGyDQ6w-unsplash.jpg"
+      <div id="tswheader"> <!-- start of header section: insert your logo, etc, here -->
+        <img src="images/evie-s-MicqqGyDQ6w-unsplash.jpg" alt="All about me's logo"
 
-          alt="All about me's logo" style="width: 155px; height: 138px;" id="logo"><span
-
-          style="text-align:center">
+          style="width: 155px; height: 138px;" id="logo"><span style="text-align:center">
           <h1><br>
           </h1>
         </span><span style="text-align:center">
@@ -34,9 +32,9 @@
       <div id="tswcontent">
         <div id="tswcontproper">
           <!-- start of content column: insert your content here -->
-          <h4>Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </h4> This is my website where I will document the fun things I do
-          this summer!<br>
+          <h4>Home </h4>
+          This is my website where I will document the fun things I do this
+          summer!<br>
           <p>&nbsp;<img src="images/minions.jpg" alt="minions on the beach" title="minions on the beach"
 
               style="width: 479px; height: 270px;"></p>
@@ -50,6 +48,8 @@
               <li><a href="https://users.wpi.edu/%7Eiagrawal/">Home</a></li>
               <li><a href="AboutMe.html">About Me</a></li>
               <li><a href="MySummer.html">My summer</a></li>
+              <li><a href="Art.html">Art Guest
+                Article</a></li>
             </ul>
           </div>
           <!-- end of side column: put your navigation menu, etc, above this line -->
