@@ -3,6 +3,24 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=windows-1252">
     <title>randomartgenerator</title>
+    <link type="text/css" rel="stylesheet" href="tswnavbar.css">
+    <script type="text/javascript">
+      const materials = ["watercolor", "acrylic paint", "digital art", "sketching", "color pencils"]
+      const characters = ["Minions", "Spongebob", "Elsa and Anna", "Shrek", "Charlie Brown and Snoopy",
+                          "Tom and Jerry", "Scooby Doo", "Moana", "Mickey Mouse", "Ariel (The Little Mermaid)"]
+      const actions = ["baking", "drawing", "at the beach", "flying", "cleaning", "horseback riding", 
+                       "at the amusement park", "coding", "camping", "listening to music"]
+      let m = 0;
+      let c = 0;
+      let a = 0;
+      function generateEntry(){
+        m = Math.floor(Math.random() * 5);
+        c = Math.floor(Math.random() * 10);
+        a = Math.floor(Math.random() * 10);
+        document.getElementById("generatedText").innerHTML = "You should use "
+        + materials[m] + " to make " + characters[c] + " " + actions[a] + "!";
+      }
+    </script>
     <style>
 
 div {
@@ -76,7 +94,7 @@ list-style-type:number;
       <p>Character</p>
       <ol class="character">
         <li>Minions</li>
-       <li>Shrek</li>
+        <li>Shrek</li>
         <li>Elsa and Anna</li>
         <li>Moana</li>
         <li>Spongebob</li>
@@ -84,7 +102,7 @@ list-style-type:number;
         <li>Charlie Brown and Snoopy</li>
         <li>Scooby Doo</li>
         <li>Tom and Jerry</li>
-        <li>Ariel- The Little Mermaid</li>
+        <li>Ariel (The Little Mermaid)</li>
       </ol>
       <p>Action</p>
       <ol class="action">
@@ -100,5 +118,24 @@ list-style-type:number;
         <li>Listening to music</li>
       </ol>
     </h4>
+    <button type="button" onclick="generateEntry()" style="background-color:PaleVioletRed;">Bored?
+      Generate a random art prompt!</button>
+    <p id="generatedText"></p>
+    <div id="tswsidecol">
+        <div id="tswsideproper">
+          <!-- start of side column: insert your navigation menu, etc, here -->
+          <div id="tswcssbuttons">
+            <ul>
+              <li><a href="https://users.wpi.edu/%7Eiagrawal/">Home</a></li>
+              <li><a href="AboutMe.html">About Me</a></li>
+              <li><a href="MySummer.html">My Summer</a></li>
+              <li><a href="Art.html">Art Guest Article</a></li>
+              <li><a href="randomartgenerator.html"><span style="color: white;">Random
+                    Art Generator</span></a></li>
+            </ul>
+          </div>
+          <!-- end of side column: put your navigation menu, etc, above this line -->
+        </div>
+      </div>
   </body>
 </html>
