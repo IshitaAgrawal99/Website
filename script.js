@@ -54,23 +54,26 @@ function showQuestion() {
    alts.forEach(function(element, index){
      element.textContent = q.alternatives[index];
      element.style.color="White" ;
-
      element.addEventListener('click', function(){
-        alts.forEach(changeColor);
+        // alts.forEach(changeColor);
+        console.log("index: " + index);
         if (q.correctAnswer == index) {
           console.log('Correct Answer!');
           element.style.color="DarkSeaGreen" ;
           answerDiv.style.color="DarkSeaGreen";
           answerDiv.textContent = "Correct Answer!" ;
           score = score + 1;
+          total = total + 1;
+          console.log("add total correct." + total);
           document.getElementById("score").innerHTML = score;
         } else {
           console.log('Wrong Answer!');
           answerDiv.textContent = "Wrong Answer!" ;
           element.style.color="Salmon";
           answerDiv.style.color="Salmon";
+          total = total + 1;
+          console.log("add total incorrect." + total);
         }
-        total = total + 1;
         document.getElementById("total").innerHTML = total;
         document.getElementById("score").innerHTML = score;
 

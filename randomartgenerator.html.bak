@@ -22,37 +22,39 @@
       }
     </script>
     <style>
-
-
-body{
+body {
   background-color: pink;
 }
 
-h1, h4, p{
-color: white;
-font-family: Courier New, Arial;
+h1, h4, p {
+  color: white;
+  font-family: Courier, New, Arial;
 }
 
-
-h1{
-text-align: center;
-border-style:dotted;
-border-color:PowderBlue;
+h1 {
+  text-align: center;
+  border-style: dotted;
+  border-color: PowderBlue;
 text-shadow: 5px 5px PowderBlue;
 }
 
-ol.medium{
-list-style-type:number;
+ol.medium {
+  list-style-type: number;
 }
 
-ol.character{
-list-style-type:number;
+ol.character {
+  list-style-type: number;
 }
 
-ol.action{
-list-style-type:number;
-}</style>
-    <script src="https://kit.fontawesome.com/a010fcafb0.js" crossorigin="anonymous"></script>
+ol.action {
+  list-style-type: number;
+}
+
+#tswsidecol {
+  font-family: " Courier, Courier New";
+}
+
+</style> <script src="https://kit.fontawesome.com/a010fcafb0.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <script type="text/javascript"> 
@@ -71,8 +73,8 @@ list-style-type:number;
     <h4>Generates a prompt for a piece of art to create.</h4>
     <h4>
       <p></p>
+      <i style="font-size:30px;" class="fa-solid fa-palette fa-spin"></i> <br>
       <p>Medium</p>
-      
       <ol class="medium">
         <li>Acrylic Paint</li>
         <li>Watercolor</li>
@@ -111,6 +113,7 @@ list-style-type:number;
     <button type="button" onclick="generateEntry()" style="background-color:PaleVioletRed; color:white; font-family: Courier New, Arial;: ">Bored?
       Generate a random art prompt!</button>
     <p id="generatedText"></p>
+    
     <div id="tswsidecol">
       <div id="tswsideproper">
         <!-- start of side column: insert your navigation menu, etc, here -->
