@@ -23,29 +23,12 @@
     </script>
     <style>
 
-div {
-  width: 100px;
-  height: 100px;
-  background-color: LightCoral;
-  animation-name: square;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes square {
-  0%   {background-color: LightCoral;}
-  20%  {background-color: LemonChiffon;}
-  40%  {background-color: DarkSeaGreen;}
-  60% {background-color: PowderBlue;}
-  80% {background-color: Lavender;}
-  80% {background-color: LightPink;}
-}
 
 body{
   background-color: pink;
 }
 
-*{
+h1, h4, p{
 color: white;
 font-family: Courier New, Arial;
 }
@@ -68,21 +51,29 @@ list-style-type:number;
 
 ol.action{
 list-style-type:number;
-}
-</style> <script src="https://kit.fontawesome.com/a010fcafb0.js" crossorigin="anonymous"></script>
+}</style>
+    <script src="https://kit.fontawesome.com/a010fcafb0.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <script type="text/javascript"> 
+        function googleTranslateElementInit() { 
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'}, 
+                'google_translate_element'
+            ); 
+        } 
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
     <h1>Boredom Solver</h1>
+    <div id="google_translate_element" style="color: black;"></div>
     <p></p>
     <h4>Generates a prompt for a piece of art to create.</h4>
     <h4>
       <p></p>
-      <i style="font-size:30px;" class="fa-solid fa-palette fa-spin"></i>
-      <br>
-      <br>
-      <div></div>
-      <br>
+      <i style="font-size:30px;" class="fa-solid fa-palette fa-spin"></i> <br>
       <p>Medium</p>
+      
       <ol class="medium">
         <li>Acrylic Paint</li>
         <li>Watercolor</li>
@@ -118,7 +109,7 @@ list-style-type:number;
         <li>Listening to music</li>
       </ol>
     </h4>
-    <button type="button" onclick="generateEntry()" style="background-color:PaleVioletRed;">Bored?
+    <button type="button" onclick="generateEntry()" style="background-color:PaleVioletRed; color:white; font-family: Courier New, Arial;: ">Bored?
       Generate a random art prompt!</button>
     <p id="generatedText"></p>
     <div id="tswsidecol">
