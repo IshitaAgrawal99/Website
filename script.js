@@ -35,7 +35,7 @@ let question = {
   let total = 0;
 
   function changeColor(elem){
-  elem.style.color = "white";
+  elem.style.color = "black";
 }
   // function for showing the question
 function showQuestion() {
@@ -53,9 +53,9 @@ function showQuestion() {
    console.log(alts);
    alts.forEach(function(element, index){
      element.textContent = q.alternatives[index];
-     element.style.color="White" ;
+     element.style.color="black" ;
      element.addEventListener('click', function(){
-        // alts.forEach(changeColor);
+         alts.forEach(changeColor);
         console.log("index: " + index);
         if (q.correctAnswer == index) {
           console.log('Correct Answer!');
