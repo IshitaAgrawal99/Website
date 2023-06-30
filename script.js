@@ -1,5 +1,4 @@
 // define the object for the question entity
-score = 0
 let question = {
     title: 'What is a^2 + b^2 in the pythagorean theorum?',
     alternatives: ['triangle', 'c^2', 'd^2', 'math'],
@@ -31,7 +30,7 @@ let question = {
   };
 
   const questions = [question, question2, question3, question4, question5]
-  let count = 0;
+  let count = 0
 
 var dice = {
 side:5,
@@ -70,8 +69,7 @@ function showQuestion() {
           element.style.color="DarkSeaGreen" ;
           answerDiv.style.color="DarkSeaGreen";
           answerDiv.textContent = "Correct Answer!" ;
-          score = score + 1
-      
+          
       
         } else {
           console.log('Wrong Answer!');
@@ -86,9 +84,7 @@ function showQuestion() {
     count = 0 ;
   }
   console.log(count) ;
+  
 }
   // call the function
   showQuestion();
-
-  document.write(score);
- 
